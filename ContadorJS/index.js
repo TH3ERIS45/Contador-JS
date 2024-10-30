@@ -15,5 +15,6 @@ decreaseBtn.onclick = function() {
 }
 
 resetBtn.onclick = function() {
-    countlabel.textContent = 0;
+    count = 0;
+    countlabel.textContent = count;
 }
